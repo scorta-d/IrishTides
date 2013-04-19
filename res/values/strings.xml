@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="hello">Hello IrishTides!</string>
     <string name="app_name">IrishTides</string>
+    <string name="change_image_url_title">Change image URL...</string>
+    <string name="change_coords_url_format_title">Change coordinates URL format...</string>
+    <string name="menu_start_pinging">Start image obtaining</string>
+    <string name="menu_stop_pinging">Stop image obtaining</string>
+    <string name="menu_change_image_url">Change image URL...</string>
+    <string name="menu_change_coords_url_format">Change coordinates URL format...</string>
+    <string name="image_provider_url">http://172.30.3.102:8880/screens/image</string>
+
+    <item name="image_ping_interval" format="integer" type="integer">1</item>
+
+    <string name="coordinates_acceptor_url_format">http://172.30.3.102:8880/screens/click?x=%1$d&amp;y=%2$d&amp;w=%3$d&amp;h=%4$d</string>
+    <string name="url_preference_name">URL</string>
+    <string name="image_cache_file_name">cached_image_file.png</string>
+    <string name="coordinates_url_format_preference_name">CoordsURLFormatPref</string>
+    <string name="click_processed_successfully_mark">OK</string>
+
+    <item name="must_log_time" type="bool">true</item>
+    <item name="request_timeout" type="integer">20</item>
+    <item name="socket_buffer_size" type="integer">8</item>
+    <item name="vibro_response_duration" type="integer">200</item>
+
 </resources>
