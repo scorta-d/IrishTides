@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Spinner android:layout_width="fill_parent" android:id="@+id/place"
+		android:layout_height="wrap_content">
+
+	</Spinner>
+	<TableLayout android:id="@+id/tableLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow android:id="@+id/firstLow" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_height="wrap_content" android:text="First Low"
+				android:id="@+id/label" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:text="00:00" android:id="@+id/firstLowTime"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="0" android:id="@+id/firstLowDepth"
+				android:layout_weight="1" android:layout_width="0dp"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/firstHigh" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_height="wrap_content" android:text="First High"
+				android:id="@+id/label" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/firstHighTime" android:text="00:00"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/firstHighDepth" android:text="0"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/secondLow" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_height="wrap_content" android:text="Second Low"
+				android:id="@+id/label" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/secondLowTime" android:text="00:00"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/secondLowDepth" android:text="0"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+		</TableRow>
+		<TableRow android:id="@+id/secondHigh" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_height="wrap_content" android:text="Second High"
+				android:id="@+id/label" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/secondHighTime" android:text="00:00"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/secondHighDepth" android:text="0"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:layout_width="0dp"></TextView>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

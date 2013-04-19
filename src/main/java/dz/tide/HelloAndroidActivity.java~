@@ -1,0 +1,293 @@
+package dz.tide;
+
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.regex.Pattern;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.AdapterView.OnItemSelectedListener;
+
+public class HelloAndroidActivity extends Activity {
+	private static String PREFS_NAME = "tides";
+	private static String PREF_PLACE = "place";
+	private static String PREF_XML = "xml";
+
+	private static String TAG = "IrishTides";
+	private ArrayList<String> mItemList = new ArrayList<String>();
+	Pattern splitter = Pattern.compile("<!--", Pattern.LITERAL);
+	private String mXml;
+	private boolean mCorrectResponse; 
+
+	/**
+	 * Called when the activity is first created.
+	 * 
+	 * @param savedInstanceState
+	 *            If the activity is being re-initialized after previously being
+	 *            shut down then this Bundle contains the data it most recently
+	 *            supplied in onSaveInstanceState(Bundle). <b>Note: Otherwise it
+	 *            is null.</b>
+	 */
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+                try {
+		super.onCreate(savedInstanceState);
+		Log.i(TAG, "onCreate");
+		setContentView(R.layout.main);
+		mCorrectResponse = false;
+		mXml = getResponse();
+		SharedPreferences mPrefs = getSharedPreferences(PREFS_NAME, 0);
+		if (mXml == null || mXml.trim().length() == 0) {
+			mXml = mPrefs.getString(PREF_XML, "");
+		} else {
+			mCorrectResponse = true;
+		}
+		if (mXml != null && mXml.trim().length() > 0) {
+			Log.i(TAG, mXml);
+			getInfos(mXml);
+			String place = mPrefs.getString(PREF_PLACE, "");
+			if (place != null) {
+				Spinner spinner = (Spinner) findViewById(R.id.place);
+				if (spinner != null && mItemList != null) {
+					int idx = mItemList.indexOf(place);
+					if (idx > 0) {
+						spinner.setSelection(idx);
+					}
+				}
+			}
+		}
+                } catch (Exception e) {
+                   Log.d (TAG, e.getMessage);   
+                }
+	}
+
+	protected void onPause() {
+		super.onPause();
+		SharedPreferences mPrefs = getSharedPreferences(PREFS_NAME, 0);
+		SharedPreferences.Editor ed = mPrefs.edit();
+		Spinner spinner = (Spinner) findViewById(R.id.place);
+		if (spinner != null) {
+			ed.putString(PREF_PLACE, (String) spinner.getSelectedItem());
+		}
+
+		if (mCorrectResponse) {
+			if (mXml != null && mXml.trim().length() > 0) {
+				ed.putString(PREF_XML, mXml);
+			}
+		}
+		ed.commit();
+	}
+
+	List<TideInfo> getInfos(String content) {
+		final List<TideInfo> list = new ArrayList<TideInfo>();
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		try {
+			DocumentBuilder b = dbf.newDocumentBuilder();
+			Document doc = b.parse( //
+					new ByteArrayInputStream(content.getBytes())//
+					);
+			NodeList childs = doc.getChildNodes();
+			for (int i = 0; i < childs.getLength(); i++) {
+				Node node = childs.item(i);
+				String localName = node.getNodeName();
+				if ("html".equals(localName)) {
+					processHtml(node, list);
+				}
+			}
+			View spinnerView = findViewById(R.id.place);
+
+			if (spinnerView instanceof Spinner) {
+				Spinner spinner = (Spinner) spinnerView;
+				//mItemList = new ArrayList<String>();
+				spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
+
+					@Override
+					public void onItemSelected(AdapterView<?> parent,
+							View view, int position, long id) {
+						String place = mItemList.get(position);
+						for (TideInfo info : list) {
+							if (place != null && place.equals(info.place)) {
+								((TextView) findViewById(R.id.firstLowTime))
+										.setText(info.firstLowTime);
+								((TextView) findViewById(R.id.firstLowDepth))
+										.setText(info.firstLowDepth);
+								((TextView) findViewById(R.id.firstHighTime))
+										.setText(info.firstHighTime);
+								((TextView) findViewById(R.id.firstHighDepth))
+										.setText(info.firstHighDepth);
+								((TextView) findViewById(R.id.secondLowTime))
+										.setText(info.secondLowTime);
+								((TextView) findViewById(R.id.secondLowDepth))
+										.setText(info.secondLowDepth);
+								((TextView) findViewById(R.id.secondHighTime))
+										.setText(info.secondHighTime);
+								((TextView) findViewById(R.id.secondHighDepth))
+										.setText(info.secondHighDepth);
+
+							}
+						}
+					}
+
+					@Override
+					public void onNothingSelected(AdapterView<?> parent) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+
+				for (TideInfo info : list) {
+					mItemList.add(info.place);
+				}
+				Collections.sort(mItemList);
+				ArrayAdapter<String> adapter = new ArrayAdapter<String>( //
+						this, //
+						android.R.layout.simple_spinner_item, // 
+						mItemList.toArray(new String[] {}) //
+				);
+				adapter
+						.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+				spinner.setAdapter(adapter);
+			}
+		} catch (Exception e) {
+			Log.e(TAG, e.getMessage());
+		}
+		return list;
+	}
+
+	private void processHtml(Node parent, List<TideInfo> list) {
+		NodeList childs = parent.getChildNodes();
+		for (int i = 0; i < childs.getLength(); i++) {
+			Node node = childs.item(i);
+			if ("body".equals(node.getNodeName())) {
+				processBody(node, list);
+			}
+		}
+	}
+
+	private void processBody(Node parent, List<TideInfo> list) {
+		NodeList childs = parent.getChildNodes();
+		for (int i = 0; i < childs.getLength(); i++) {
+			Node node = childs.item(i);
+			if ("table".equals(node.getNodeName())) {
+				processTable(node, list);
+
+			}
+
+		}
+
+	}
+
+	private void processTable(Node parent, List<TideInfo> list) {
+		NodeList childs = parent.getChildNodes();
+		for (int i = 0; i < childs.getLength(); i++) {
+			Node node = childs.item(i);
+			if ("tr".equals(node.getNodeName())) {
+				list.add(new TideInfo());
+				processRow(node, list);
+
+			}
+
+		}
+
+	}
+
+	private void processRow(Node parent, List<TideInfo> list) {
+		TideInfo info = list.get(list.size() - 1);
+		NodeList childs = parent.getChildNodes();
+		int idx = 0;
+		for (int i = 0; i < childs.getLength(); i++) {
+			Node node = childs.item(i);
+
+			if ("td".equals(node.getNodeName())) {
+				if (idx == 0) {
+					info.place = node.getTextContent();
+				} else if (idx == 1) {
+					info.firstLowTime = node.getTextContent();
+				} else if (idx == 2) {
+					info.firstLowDepth = node.getTextContent();
+				} else if (idx == 3) {
+					info.firstHighTime = node.getTextContent();
+				} else if (idx == 4) {
+					info.firstHighDepth = node.getTextContent();
+				} else if (idx == 5) {
+					info.secondLowTime = node.getTextContent();
+				} else if (idx == 6) {
+					info.secondLowDepth = node.getTextContent();
+				} else if (idx == 7) {
+					info.secondHighTime = node.getTextContent();
+				} else if (idx == 8) {
+					info.secondHighDepth = node.getTextContent();
+				}
+
+				idx++;
+			}
+		}
+	}
+
+	String getResponse() {
+		String result = "";
+		URL oracle;
+		BufferedReader in = null;
+		try {
+			// String url = "http://irishtides.bshellz.net/tides.php";
+			String url = "http://irishtides.comeze.com";
+			oracle = new URL(url);
+			in = new BufferedReader( //
+					new InputStreamReader(oracle.openStream())//
+			);
+
+			String inputLine;
+
+			while ((inputLine = in.readLine()) != null) {
+				result += inputLine;
+			}
+			String[] parts = splitter.split(result);
+			if (parts != null && parts.length > 0) {
+				result = parts[0];
+			}
+
+		} catch (Exception e) {
+			Log.e(TAG, e.getMessage());
+		} finally {
+			try {
+				if (in != null) {
+					in.close();
+				}
+			} catch (IOException e) {
+				Log.e(TAG, e.getMessage());
+			}
+		}
+
+		return result;
+
+	}
+
+	// public void onSaveInstanceState(Bundle savedInstanceState) {
+	// }
+
+	// public void onRestoreInstanceState(Bundle savedInstanceState) {
+	// String place = savedInstanceState.getString("place");
+	//		
+	// }
+
+}

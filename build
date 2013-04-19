@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mvn compile android:dex android:apk jarsigner:sign
+
+/home/dz/prg/android-sdk-linux_x86/tools/zipalign -f -v 4 target/irish-tides-1.0.5.apk target/irish-tides-1.0.5v.apk 

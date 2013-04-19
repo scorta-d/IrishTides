@@ -1,0 +1,2002 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+<head>
+
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>The Irish Times</title>
+  
+  <link rel="canonical" href="http://www.irishtimes.com/news/weather/tides" />
+
+  <meta name="description" content="Find the Latest Local and International News including Sports, Analysis, Business, Weather and more from the Definitive Brand of Quality News in Ireland." />
+  
+      
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes, target-densitydpi=medium-dpi" />
+ <!-- <meta name="apple-mobile-web-app-capable" content="yes" />-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <meta name="robots" content="all" />
+    <meta name="format-detection" content="telephone=no" />
+
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" />
+	
+  <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/apple-touch-icon-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/apple-touch-icon-144x144-precomposed.png" />
+
+
+
+  <link rel="stylesheet" href="/assets/css/styles.css?rev=201303211700"/>
+  <link rel="stylesheet" href="/assets/css/patch.css?rev=201303211700"/>
+  <link rel="stylesheet" href="/assets/css/framework.css?rev=201303211700"/>
+  <link rel="stylesheet" href="/assets/css/index.css?rev=201303211700"/>
+  <link rel="stylesheet" href="/assets/css/jquery-ui-1.8.24.custom.css?rev=201303211700"/>
+  <link rel="stylesheet" href="/assets/css/jquery.ui.datepicker.css?rev=201303211700"/> 	
+  	
+  <link rel="stylesheet" type="text/css" href="/cmlink/weather-7.2165212" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/tides-css-7.2133375" />
+
+    <link rel="alternate" type="application/rss+xml" title="The Irish Times - News" href="/cmlink/the-irish-times-news-1.1319192" >    
+    <script src="/assets/js/modernizr.js?rev=201303211700"></script>
+    <script src="/assets/js/jquery.js?rev=201303211700"></script>     
+    <script src="/assets/js/plugins.js?rev=201303211700"></script>
+    <script src="/assets/js/libs/framework.js?rev=201303211700"></script>
+    <script src="/assets/js/libs/jquery.ui.core.js?rev=201303211700"></script>
+    <script src="http://admin.brightcove.com/js/BrightcoveExperiences.js?rev=201303211700"></script>
+    <script type="text/javascript" src="http://admin.brightcove.com/js/api/SmartPlayerAPI.js?rev=201303211700"></script>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+              	
+  </head>
+<body class="news">
+	
+		<div id="wrapper" class="clearfix">	
+		<header role="banner" class="clearfix">
+	
+						  
+                  
+    
+  
+    
+  
+    
+    
+        <div id="top-line-navigation">
+	<div class="gradient"><div class="top"><img src="/assets/images/generic/website/gradient_top.png" alt="" style="width:100%" height="3" /></div><img src="/assets/images/generic/website/gradient.png" alt="" style="width:100%" height="100%" /></div>
+	<div class="left-remainder"><div class="inner"></div></div>
+	<div class="container">
+				<nav class="column-1">
+			<ul aria-label="classifieds">
+																												<li><a  href="http://www.irishtimes.com/life-and-style/homes-and-property" >Property</a></li>
+																									<li><a  title="Cars"  href="http://cars.irishtimes.com/" >Cars</a></li>
+																									<li><a  href="http://dating.irishtimes.com" >Dating</a></li>
+																									<li><a  href="http://notices.irishtimes.com" >Family Notices</a></li>
+																									<li><a  href="http://www.irishtimes.com/jobsboard/" >Jobs</a></li>
+																</ul>
+		</nav>
+						<nav class="column-2">
+			<ul aria-label="subscriptions">
+																																<li><a  href="http://www.irishtimes.com/games/crosswords/" >Crosswords</a></li>
+																																
+						                        
+						<li class="more"><a href="/subscriptions" class="toggle" role="button" aria-haspopup="true">Subscriptions</a>
+							<div class="layer" role="menu" aria-hidden="true">
+								<ul>
+																<li><a  title="Home Delivery"  href="https://www.newsdelivery.ie/" >Home Delivery</a></li>
+																									<li><a  title="The Irish Times ePaper"  href="http://www.irishtimes.com/epaper" >epaper</a></li>
+																									<li><a  title="The Irish Times - Archive"  href="http://www.irishtimes.com/archive/" >Archive</a></li>
+																				</ul>
+						</div>
+					</li>
+							</ul>
+		</nav>
+			</div>
+	<div class="right-remainder"><div class="inner"></div></div>				
+</div>
+      
+    
+    
+        <div class="banner">
+	<div class="left-remainder"><div class="inner"></div></div>
+	<div class="container">
+					<div class="column-1">
+                  
+    
+  
+    
+  
+    
+    
+        	
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+  <script type="text/javascript">
+	if (window.adgroupid == undefined) {   
+  		window.adgroupid = Math.round(Math.random() * 1000);
+  	}
+	if (window.isMobileUA == undefined) {
+  		var browserWidth;
+  		if( typeof( window.innerWidth ) == 'number' ) {
+    		//Non-IE (Firefox, Safari, Chrome, Opera)
+    		browserWidth = window.innerWidth;
+  		} else if( document.documentElement &&
+    			( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    		//IE 6+ in 'standards compliant mode'
+    		browserWidth = document.documentElement.clientWidth;
+  		}
+  		window.isMobileUA = browserWidth < 768 ? true : false;	
+  	}
+  	if (window.isMobileUA) {
+    	    	
+    			    	document.write('<scr'+'ipt language="javascript1.1" src="http://a.adtech.de/addyn/3.0/826.1/0/0/-1/ADTECH;loc=100;alias=news_index_mobileleader-top-5;target=_blank;kvtopic=Tides;grp=='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');
+  	} else {
+    					
+        var android = "";
+        if(navigator.appVersion.toLowerCase().indexOf('android') >= 0){
+                android=";kvmos=ANDROID";
+        }
+
+    	document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|826.1|4269098|0|225|ADTECH;cookie=info;loc=100;target=_blank;kvtopic=Tides;grp='+window.adgroupid+android+';misc='+new Date().getTime()+'"></scri'+'pt>');
+  	}
+  </script>
+	<noscript>
+	    	    			<a href="http://adserver.adtech.de/adlink|3.0|826.1|4269098|0|225|ADTECH;loc=300;target=_blank;kvtopic=Tides;cookie=info;" target="_blank">
+			<img src="http://adserver.adtech.de/adserv|3.0|826.1|4269098|0|225|ADTECH;loc=300;target=_blank;kvtopic=Tides;cookie=info;" border="0">
+		</a>
+	</noscript>
+
+	
+	
+      
+  
+      </div>
+							<div class="column-2">
+                  
+    
+  
+    
+  
+    
+    
+        	
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	<script language="javascript"><!--	
+	if (window.adgroupid == undefined) {		
+		window.adgroupid = Math.round(Math.random() * 1000);
+	}	
+  var android = "";
+  if(navigator.appVersion.toLowerCase().indexOf('android') >= 0){
+    android=";kvmos=ANDROID";
+  }
+        //console.log( android );
+        		document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|826.1|4269099|0|2530|ADTECH;cookie=info;loc=100;target=_blank;kvtopic=Tides;grp='+window.adgroupid+android+';misc='+new Date().getTime()+'"></scri'+'pt>');
+	//-->
+	</script>
+	<noscript>
+	    	
+	    			<a href="http://adserver.adtech.de/adlink|3.0|826.1|4269099|0|2530|ADTECH;loc=300;target=_blank;kvtopic=Tides;cookie=info;" target="_blank">
+			<img src="http://adserver.adtech.de/adserv|3.0|826.1|4269099|0|2530|ADTECH;loc=300;target=_blank;kvtopic=Tides;cookie=info;" border="0">
+		</a>
+	</noscript>
+
+	
+	
+      
+  
+      </div>
+			</div>
+	<div class="right-remainder"><div class="inner"></div></div>
+</div>
+      
+    
+    
+        
+
+
+    
+
+		    	
+
+
+<div id="page-metadata" class="with-section-title">
+	<div class="left-remainder"><div class="inner"></div></div>
+	<div class="container">
+		<div id="logo">
+			<a href="/">
+				<span class="accessibility">The Irish Times</span>
+			</a>
+		</div>
+		<div class="date">Thursday, March 21, 2013</div>
+			<div class="section-title">Tides</div>
+		</div>
+	<div class="right-remainder"><div class="inner"></div></div>
+</div>
+
+<div id="primary-navigation">				
+    <div class="left-remainder"><div class="inner"></div></div>
+	<div class="container">
+	    <div id="small-logo"><a href="/"><span class="accessibility">The Irish Times</span></a></div>
+	    <div id="open-touch-menu"><button role="button">Menu</button></div>
+	    <div class="section-title"></div>
+        <nav role="navigation" aria-label="main menu">
+		    <ul role="menubar" aria-label="sections">
+		    	
+		    			    	
+		    			    		
+										
+										
+											
+												
+												<li id="pnav-li-1" role="menuitem" aria-haspopup="true"  class="selected" >
+						<div class="main">
+																								
+														
+																					<a href="/news" role="link" title="Irish News">
+								<span class="inner">
+									<span>News</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+																			<div class="layer layout-1" role="menu" aria-hidden="true">
+							<div class="column-1">
+                             
+                             																												<ul>
+																		
+																		<li><a href="/news/world">World</a></li>		
+                                    
+																																			
+																		<li><a href="/news/politics">Politics</a></li>		
+                                    
+																																			
+																		<li><a href="/news/crime-and-law">Crime & Law</a></li>		
+                                    
+																																			
+																		<li><a href="/news/social-affairs">Social Affairs</a></li>		
+                                    
+																																			
+																		<li><a href="/news/health">Health</a></li>		
+                                    
+																																			
+																		<li><a href="/news/education">Education</a></li>		
+                                    
+																																			
+																		<li><a href="/news/environment">Environment</a></li>		
+                                    
+																																			
+																		<li><a href="/news/science">Science</a></li>		
+                                    
+																			</ul>
+																																				<ul>
+																		
+																		<li><a href="/news/technology">Technology</a></li>		
+                                    
+																																			
+																		<li><a href="/news/consumer">Consumer</a></li>		
+                                    
+																																			
+																		<li><a href="/news/galleries">Galleries</a></li>		
+                                    
+																																			
+																		<li><a href="/news/video">Video</a></li>		
+                                    
+																																			
+																		<li><a href="/news/weather">Weather</a></li>		
+                                    
+																									
+																											<li>
+										<a  title="Six Nations 2013"  href="http://www.irishtimes.com/six-nations-2013" >Six Nations 2013</a>									</li>
+								
+																	
+																											<li>
+										<a  title="Today's epaper"  href="http://www.irishtimes.com/epaper" >Today's epaper</a>									</li>
+								
+																	                                </ul>
+							</div>
+							<div class="column-2">
+								<ul>
+																																																			<li class="first">
+																																	<a href="			/news/world/middle-east/un-to-investigate-chemical-weapon-claims-in-syria-1.1334177">UN to investigate chemical weapon claims in Syria</a>
+										</li>
+																																																				<li>
+																																	<a href="			/news/world/uk/british-horror-writer-james-herbert-69-dies-suddenly-1.1333938">British horror writer James Herbert (69) dies suddenly</a>
+										</li>
+																																																				<li>
+																																	<a href="			/news/politics/property-tax-is-your-house-exempt-1.1333740">Property tax: is your house  exempt?</a>
+										</li>
+																																																				<li>
+																																	<a href="			/news/kurd-rebel-leader-orders-ceasefire-in-turkey-1.1334073">Kurd rebel leader orders ceasefire in Turkey</a>
+										</li>
+																																																				<li>
+																																	<a href="			/sport/soccer/ibrahimovic-ready-to-lead-from-the-front-1.1333961">Ibrahimovic ready to lead from the front</a>
+										</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	</ul>
+							</div>
+							<div class="column-3">
+								<ul>
+																													<li>
+											
+<a href="			/news/politics/property-tax-is-your-house-exempt-1.1333740">
+                <img title='' height='79' alt='' width='140' src='/polopoly_fs/1.1333729.1363880183!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Property tax: is your house  exempt?
+</a>										</li>
+																																							<li>
+											
+<a href="			/news/imf-official-benedict-clements-blames-high-pay-for-irish-health-costs-1.1332899">
+                <img title='International Monetary Fund  division chief Benedict Clements told the National Healthcare Conference in Dublin that Irish healthcare workers were “relatively well-paid” compared with other countries. Photograph: Wanderley Massafelli/Photocall Ireland ' height='79' alt='International Monetary Fund  division chief Benedict Clements told the National Healthcare Conference in Dublin that Irish healthcare workers were “relatively well-paid” compared with other countries. Photograph: Wanderley Massafelli/Photocall Ireland ' width='140' src='/polopoly_fs/1.1332893.1363824524!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        IMF official Benedict Clements blames high pay for Irish health costs
+</a>										</li>
+																																																																																																																																																																																			</ul>
+							</div>
+						</div>
+					    											</li>
+					
+											    		
+										
+										
+											
+												
+												<li id="pnav-li-2" role="menuitem" aria-haspopup="true" >
+						<div class="main">
+																								
+														
+																					<a href="/sport" role="link" title="Sport">
+								<span class="inner">
+									<span>Sport</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+																		<div class="layer layout-2" role="menu" aria-hidden="true">
+							<div class="column-1">
+																 
+																			<ul>
+																		
+																		<li><a href="/sport/soccer">Soccer</a></li>
+								
+																									 
+																		
+																		<li><a href="/sport/rugby">Rugby</a></li>
+								
+																									 
+																		
+																		<li><a href="/sport/gaelic-games">Gaelic Games</a></li>
+								
+																									 
+																		
+																		<li><a href="/sport/golf">Golf</a></li>
+								
+																									 
+																		
+																		<li><a href="/sport/racing">Racing</a></li>
+								
+																									 
+																		
+																		<li><a href="/sport/other-sports">Other Sports</a></li>
+								
+																			</ul>
+																																												<ul>
+																		<li>
+										<a  title="Six Nations 2013"  href="http://www.irishtimes.com/six-nations-2013" >Six Nations 2013</a>									</li>
+								
+																																			<li>
+										<a  title="irishracing.com"  href="http://www.irishracing.com" >irishracing.com</a>									</li>
+								
+																								</div>
+							<div class="column-2">
+								<ul>
+																																																			<li class="first">
+																																	<a href="			/sport/soccer/ibrahimovic-ready-to-lead-from-the-front-1.1333961">Ibrahimovic ready to lead from the front</a>
+										</li>
+																																																				<li>
+																																	<a href="			/sport/other-sports/sports-council-announces-grants-for-next-12-months-1.1333906">Sports Council announces grants for next 12 months</a>
+										</li>
+																																																				<li>
+																																	<a href="			/sport/racing/weather-a-concern-for-the-curragh-1.1333920">Weather a concern for the Curragh</a>
+										</li>
+																																																				<li>
+																																	<a href="			/news/politics/eu-affairs-committee-to-discuss-youth-guarantee-1.1333816">EU Affairs Committee to discuss youth guarantee</a>
+										</li>
+																																																				<li>
+																																	<a href="			/sport/golf/lawrie-leads-the-irish-challenge-in-kuala-lumpur-1.1333839">Lawrie leads the Irish challenge in Kuala Lumpur</a>
+										</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																</ul>
+							</div>
+							<div class="column-3">
+								<ul>
+																													<li>
+                                            
+
+    
+
+	<a href="http://irishtimesrugby.fantasyleague.com/" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/fantasy-rugby-manage-your-team-to-glory-and-win-fantastic-prizes-7.2165248']);">
+			                			<img title='' height='79' alt='Fantasy Rugby' width='140' src='/polopoly_fs/1.1320228.1362771189!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Fantasy Rugby: Manage your team to glory and win fantastic prizes	
+</a>
+										</li>
+																																							<li>
+                                            
+<a href="			/sport/soccer/green-for-go-but-trapattoni-waits-on-brady-1.1334056">
+                <img title='Paul Green and James McCarthy during Irleand training in Malahide earlier this week.  Photograph: James Crombie/Inpho ' height='79' alt='Paul Green and James McCarthy during Irleand training in Malahide earlier this week.  Photograph: James Crombie/Inpho ' width='140' src='/polopoly_fs/1.1334087.1363881832!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Green for go but Trapattoni waits on Brady 
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/sport/other-sports/sports-council-announces-grants-for-next-12-months-1.1333906">
+                <img title='Iirsh boxer Joe Ward, who will retain his grant of ¤40,000 for the next 12 months. Photograph: Oliver McVeigh/Sportsfile ' height='79' alt='Iirsh boxer Joe Ward, who will retain his grant of ¤40,000 for the next 12 months. Photograph: Oliver McVeigh/Sportsfile ' width='140' src='/polopoly_fs/1.1333899.1363875311!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Sports Council announces grants for next 12 months
+</a>										</li>
+																																																																																																																											
+								</ul>
+							</div>
+						</div>	
+																	</li>
+					
+											    		
+										
+										
+											
+												
+												<li id="pnav-li-3" role="menuitem" aria-haspopup="true" >
+						<div class="main">
+																								
+														
+																					<a href="/business" role="link" title="Business">
+								<span class="inner">
+									<span>Business</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+																		<div class="layer layout-2" role="menu" aria-hidden="true">
+							<div class="column-1">
+																 
+																			<ul>
+																		
+																		<li><a href="/business/sectors">Sectors</a></li>
+								
+																									 
+																		
+																		<li><a href="/business/economy">Economy</a></li>
+								
+																									 
+																		
+																		<li><a href="/business/markets">Markets</a></li>
+								
+																									 
+																		
+																		<li><a href="/business/exchange-rates">Exchange Rates</a></li>
+								
+																																</div>
+							<div class="column-2">
+								<ul>
+																																																			<li class="first">
+																																	<a href="			/business/economy/employment/us-unemployment-claims-edge-higher-1.1333896">US unemployment claims edge higher</a>
+										</li>
+																																																				<li>
+																																	<a href="			/business/markets/bonds/ntma-issues-500m-of-three-month-bonds-1.1333852">NTMA issues &euro;500m of three-month bonds</a>
+										</li>
+																																																				<li>
+																																	<a href="			/business/sectors/retail-and-services/irish-economy-grows-0-9-in-2012-1.1333812">Irish economy grows 0.9% in 2012</a>
+										</li>
+																																																				<li>
+																																	<a href="			/business/sectors/retail-and-services/next-2012-profits-up-9-1.1333789">Next 2012 profits up 9%</a>
+										</li>
+																																																				<li>
+																																	<a href="			/business/sectors/transport-and-tourism/lufthansa-dublin-flights-hit-by-strike-action-1.1333742">Lufthansa Dublin flights hit by strike action</a>
+										</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	</ul>
+							</div>
+							<div class="column-3">
+								<ul>
+																													<li>
+                                            
+
+    
+
+	<a href="http://www.irishtimes.com/blogs/eircom-business-centre/" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/expert-opinion-in-it-technologies-from-eircom-7.2279938']);">
+			                			<img title='' height='79' alt='eircom latest business trends 300x150' width='140' src='/polopoly_fs/1.1325704.1363258716!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Expert opinion in IT technologies from eircom	
+</a>
+										</li>
+																																							<li>
+                                            
+<a href="			/business/sectors/retail-and-services/irish-economy-grows-0-9-in-2012-1.1333812">
+                <img title='Growth was driven by net exports of ¤4.4 billion, as domestic demand fell 1.5 per cent. Photograph: Cyril Byrne/Irish Times ' height='79' alt='Growth was driven by net exports of ¤4.4 billion, as domestic demand fell 1.5 per cent. Photograph: Cyril Byrne/Irish Times ' width='140' src='/polopoly_fs/1.1333825.1363866693!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Irish economy grows 0.9% in 2012
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/business/markets/bonds/ntma-issues-500m-of-three-month-bonds-1.1333852">
+                <img title='National Treasury Asset Management chief executive John Corrigan (right) at NTMA briefing at the Treasury Building in Dublin. At left is Rossa White and centre Oliver Whelan. Bryan O&#39;Brien / THE IRISH TIMES ' height='79' alt='National Treasury Asset Management chief executive John Corrigan (right) at NTMA briefing at the Treasury Building in Dublin. At left is Rossa White and centre Oliver Whelan. Bryan O&#39;Brien / THE IRISH TIMES ' width='140' src='/polopoly_fs/1.1333851.1363869166!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        NTMA issues €500m of three-month bonds
+</a>										</li>
+																																																																																																																																																																																																							
+								</ul>
+							</div>
+						</div>	
+																	</li>
+					
+											    		
+										
+										
+											
+												
+												<li id="pnav-li-4" role="menuitem" aria-haspopup="true" >
+						<div class="main">
+																								
+														
+																					<a href="/debate" role="link" title="Debate">
+								<span class="inner">
+									<span>Debate</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+																		<div class="layer layout-2" role="menu" aria-hidden="true">
+							<div class="column-1">
+																 
+																			<ul>
+																		
+																		<li><a href="/debate/columnists">Columnists</a></li>
+								
+																									 
+																		
+																		<li><a href="/debate/opinion-analysis">Opinion & Analysis</a></li>
+								
+																									 
+																		
+																		<li><a href="/debate/editorial">Editorial</a></li>
+								
+																									 
+																		
+																		<li><a href="/debate/letters">Letters</a></li>
+								
+																																</div>
+							<div class="column-2">
+								<ul>
+																																																			<li class="first">
+																																	<a href="			/news/science/the-emergence-of-deadly-drug-resistant-tuberculosis-1.1332530">The emergence of deadly drug-resistant tuberculosis </a>
+										</li>
+																																																				<li>
+																																	<a href="			/business/sectors/media-and-marketing/a-right-royal-confusion-over-press-regulation-1.1332774">A right royal confusion over press regulation</a>
+										</li>
+																																																				<li>
+																																	<a href="			/business/sectors/agribusiness-and-food/farmers-should-be-helped-to-get-more-income-from-the-market-place-1.1333172">Farmers should be helped to get more income from the market place</a>
+										</li>
+																																																				<li>
+																																	<a href="			/news/social-affairs/emigration-may-have-yet-to-peak-1.1332785">Emigration may have yet to peak</a>
+										</li>
+																																																				<li>
+																																	<a href="			/news/education/reducing-state-support-for-fee-paying-schools-is-logical-and-equitable-1.1332783">Reducing State support for fee-paying schools is logical and equitable</a>
+										</li>
+																																																																																																																																			</ul>
+							</div>
+							<div class="column-3">
+								<ul>
+																													<li>
+                                            
+<a href="			/life-and-style/homes-and-property/south-facing-garden-has-to-give-1.1332641">
+                <img title='' height='79' alt='' width='140' src='/polopoly_fs/1.1332639.1363870946!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        South-facing garden has to give
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/news/social-affairs/emigration-may-have-yet-to-peak-1.1332785">
+                <img title='Passengers leaving terminal two at departures in Dublin Airport.Photograph: Cyril Byrne ' height='79' alt='Passengers leaving terminal two at departures in Dublin Airport.Photograph: Cyril Byrne ' width='140' src='/polopoly_fs/1.1332863.1363810136!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Emigration may have yet to peak
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/business/cantillon-nama-prepares-for-the-worst-1.1333199">
+                <img title='NAMA at the Treasurry Building.' height='79' alt='NAMA at the Treasurry Building.' width='140' src='/polopoly_fs/1.1333197.1363819885!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Cantillon: Nama prepares for the worst
+</a>										</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+								</ul>
+							</div>
+						</div>	
+																	</li>
+					
+											    		
+										
+										
+											
+												
+												<li id="pnav-li-5" role="menuitem" aria-haspopup="true" >
+						<div class="main">
+																								
+														
+																					<a href="/life-and-style" role="link" title="Life & Style">
+								<span class="inner">
+									<span>Life & Style</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+																		<div class="layer layout-3" role="menu" aria-hidden="true">
+							<div class="column-1">
+																 
+																			<ul>
+																		
+																		<li><a href="/life-and-style/travel">Travel</a></li>
+								
+																									 
+																		
+																		<li><a href="/life-and-style/food-and-drink">Food & Drink</a></li>
+								
+																									 
+																		
+																		<li><a href="/life-and-style/fashion">Fashion</a></li>
+								
+																									 
+																		
+																		<li><a href="/life-and-style/homes-and-property">Homes & Property</a></li>
+								
+																			</ul>
+																									 
+																			<ul>
+																		
+																		<li><a href="/life-and-style/people">People</a></li>
+								
+																									 
+																		
+																		<li><a href="/life-and-style/family">Family</a></li>
+								
+																									 
+																		
+																		<li><a href="/life-and-style/motors">Motors</a></li>
+								
+																																</div>
+							<div class="column-2">
+								<ul>
+																													<li>
+                                            
+
+    
+
+	<a href="http://www.irishtimes.com/games/crosswords/" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/today-s-interactive-irish-times-crossword-7.2161123']);">
+			                			<img title='The Irish Times Crossword' height='79' alt='crossword 300x150' width='140' src='/polopoly_fs/1.1320644.1362823540!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Today's interactive Irish Times Crossword	
+</a>
+										</li>
+																																							<li>
+                                            
+<a href="			/life-and-style/homes-and-property/new-to-market/a-down-size-abbey-for-1-35m-to-suit-aspiring-meath-gentry-in-the-royal-county-1.1332730">
+                <img title='' height='79' alt='' width='140' src='/polopoly_fs/1.1332712.1363800968!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        A ‘Down-size Abbey’ for €1.35m to suit aspiring Meath gentry in the royal county 
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/life-and-style/travel/best-places-to-holiday-westmeath-kerry-wexford-and-cork-1.1331447">
+                <img title='' height='79' alt='' width='140' src='/polopoly_fs/1.1331446.1363770912!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Best places to holiday: Westmeath, Kerry, Wexford and Cork 
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/starting-a-family-and-wedding-day-grief-1.1327671">
+                <img title='' height='79' alt='' width='140' src='/polopoly_fs/1.1332343.1363778678!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Starting a family and wedding day grief
+</a>										</li>
+																																																																																																							</ul>
+							</div>
+						</div>
+																	</li>
+					
+											    		
+										
+										
+											
+												
+												<li id="pnav-li-6" role="menuitem" aria-haspopup="true" >
+						<div class="main">
+																								
+														
+																					<a href="/culture" role="link" title="Culture">
+								<span class="inner">
+									<span>Culture</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+																		<div class="layer layout-3" role="menu" aria-hidden="true">
+							<div class="column-1">
+																 
+																			<ul>
+																		
+																		<li><a href="/culture/film">Film</a></li>
+								
+																									 
+																		
+																		<li><a href="/culture/books">Books</a></li>
+								
+																									 
+																		
+																		<li><a href="/culture/stage">Stage</a></li>
+								
+																									 
+																		
+																		<li><a href="/culture/music">Music</a></li>
+								
+																			</ul>
+																									 
+																			<ul>
+																		
+																		<li><a href="/culture/art-and-design">Art & Design</a></li>
+								
+																									 
+																		
+																		<li><a href="/culture/media">Media</a></li>
+								
+																									 
+																		
+																		<li><a href="/culture/treibh">Treibh</a></li>
+								
+																									 
+																		
+																		<li><a href="/culture/heritage">Heritage</a></li>
+								
+																			</ul>
+																																</div>
+							<div class="column-2">
+								<ul>
+																													<li>
+                                            
+
+    
+
+	<a href="http://www.irishtimes.com/games/crosswords/" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/today-s-interactive-irish-times-crossword-7.2161123']);">
+			                			<img title='The Irish Times Crossword' height='79' alt='crossword 300x150' width='140' src='/polopoly_fs/1.1320644.1362823540!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Today's interactive Irish Times Crossword	
+</a>
+										</li>
+																																							<li>
+                                            
+<a href="			/culture/books/can-the-modern-book-reviewer-be-unputdownable-1.1332489">
+                <img title='' height='79' alt='' width='140' src='/polopoly_fs/1.1332490.1363794149!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        Can the modern book reviewer be unputdownable?
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/culture/media/an-irish-written-sitcom-made-and-broadcast-in-ireland-don-t-laugh-1.1331459">
+                <img title='Chris O&#39;Dowd and David Rawle in Moone Boy. Photograph: Pat Redmond' height='79' alt='Chris O&#39;Dowd and David Rawle in Moone Boy. Photograph: Pat Redmond' width='140' src='/polopoly_fs/1.1331458.1363728725!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        An Irish-written sitcom made and broadcast in Ireland? Don’t laugh
+</a>										</li>
+																																							<li>
+                                            
+<a href="			/culture/books/did-you-notice-when-you-said-the-word-feminist-an-alarm-went-off-1.1327650">
+                <img title='Deborah Levy: ‘In my teens I used to comb the bookshelves looking for ones that might have some sex in them. I took down Edna O’Brien’s Country Girls books and devoured them.’' height='79' alt='Deborah Levy: ‘In my teens I used to comb the bookshelves looking for ones that might have some sex in them. I took down Edna O’Brien’s Country Girls books and devoured them.’' width='140' src='/polopoly_fs/1.1329951.1363622787!/image/image.jpg_gen/derivatives/box_140/image.jpg' />        ‘Did you notice when you said the word feminist an alarm went off?’
+</a>										</li>
+																																																																																																																										</ul>
+							</div>
+						</div>
+																	</li>
+					
+											    		
+										
+										
+											
+												
+												<li id="pnav-li-7" role="menuitem" aria-haspopup="true" >
+						<div class="main">
+																								
+														
+																					<a href="/offers" role="link" title="Offers">
+								<span class="inner">
+									<span>Offers</span>
+									<span class="arrow">&nbsp;</span>
+								</span>
+							</a>
+						</div>
+						
+												
+												 						<div class="layer layout-4" role="menu" aria-hidden="true">
+							<div class="column-1">
+																 
+																			<ul>
+																		
+																		<li><a href="/offers/competitions">Competitions</a></li>
+								
+																																											<li>
+										<a  href="http://www.rewardingtimes.ie/" >Rewarding Times</a>									</li>
+								
+																																			<li>
+										<a  href="http://traveloffers.irishtimes.com/" >Travel Offers</a>									</li>
+								
+																																			<li>
+										<a  href="http://readeroffers.irishtimes.com/" >Reader Offers</a>									</li>
+								
+																																			<li>
+										<a  title="Book Offers"  href="http://readeroffers.irishtimes.com/cl-B/Books.htm" >Book Offers</a>									</li>
+								
+																			</ul>
+																								</div>
+							<div class="column-2">
+								<ul>
+																													<li>
+                                            
+
+    
+
+	<a href="http://www.rewardingtimes.ie/" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/offer-closed-2-nights-b-b-at-delphi-mountain-resort-for-only-285-7.2169215']);">
+			                			<img title='' height='79' alt='delphi rewarding times 300x150' width='140' src='/polopoly_fs/1.1331172.1363696790!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Offer closed: 2 nights B&B at Delphi Mountain Resort for only €285	
+</a>
+										</li>
+																																							<li>
+                                            
+
+    
+
+	<a href="http://traveloffers.irishtimes.com/tour/amsterdam-volendam-the-dutch-bulbfields" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/join-us-on-this-wonderful-5-day-tour-of-holland-from-659pp-7.2169218']);">
+			                			<img title='' height='79' alt='travel offer 300x150' width='140' src='/polopoly_fs/1.1327189.1363351083!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Join us on this wonderful 5 day tour of Holland from €659pp	
+</a>
+										</li>
+																																							<li>
+                                            
+
+    
+
+	<a href="http://comms.irishtimes.com/ladbrokes-irish-grand-national-2013/pre_signup/.ashx" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/win-tickets-to-the-2013-ladbrokes-irish-grand-national-7.2169217']);">
+			                			<img title='' height='79' alt='fairyhouse 300x150' width='140' src='/polopoly_fs/1.1327090.1363340415!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Win tickets to the 2013 Ladbrokes Irish Grand National	
+</a>
+										</li>
+																																							<li>
+                                            
+
+    
+
+	<a href="http://comms.irishtimes.com/easonbookoffer/2013/.ashx" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/commercial-teasers/the-irish-times-and-eason-book-club-tenderwire-by-claire-kilroy-7.2169216']);">
+			                			<img title='' height='79' alt='tenderwire 300x150' width='140' src='/polopoly_fs/1.1327171.1363350192!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            The Irish Times and Eason Book Club: Tenderwire by Claire Kilroy	
+</a>
+										</li>
+																																							<li>
+                                            
+
+    
+
+	<a href="http://readeroffers.irishtimes.com/i-cc-itds1267/radio-controlled-wall-clocks/" onClick="_gaq.push(['_trackEvent','Commercial Mega Nav element','Commercial Mega Nav Element Click','http://www.irishtimes.com/offers/2.1019/get-the-ultimate-in-accurate-timekeeping-with-this-radio-controlled-clock-7.2133382']);">
+			                			<img title='' height='79' alt='radio clock 300x150' width='140' src='/polopoly_fs/1.1327363.1363359047!/image/image.jpg_gen/derivatives/box_140/image.jpg' />            Get the ultimate in accurate timekeeping with this radio controlled clock. 	
+</a>
+										</li>
+																											</ul>
+							</div>
+						</div>
+											</li>
+					
+									
+			</ul>
+		</nav>
+		
+				  <div id="site-search" role="search">
+			<div class="inner">
+			  <form action="/search/search-7.1213540" method="get" autocomplete="off">
+                                                				<input type="text" name="q" placeholder="Search" value="" />
+				<button type="submit" role="button"><span class="accessibility">Search</span></button>
+		      </form>
+			</div>
+		  </div>
+			</div>
+	<div class="right-remainder"><div class="inner"></div></div>
+</div>
+      
+  
+      					</header>
+		
+		
+		<div id="torso" role="main" class="clearfix">
+			<!-- Cookie Policy notice -->
+			
+			<div id="cookies-policy-wrapper" style="display: none;">
+				<div id="cookies-policy" style="display: block;">
+					<div id="cookies-policy-prompt" class="span12">
+By using this website, you consent to our use of cookies. For more information on cookies see our <a id="cookies-policy-moreinfo" href="/policy-and-terms/cookie-policy">Cookie Policy</a>.
+				<button id="cookies-policy-continue-button" class="close-btn" type="button">X</button>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="left-remainder"><div class="inner"></div></div>
+			<div class="container">
+			
+								<div class="bt-container">
+					
+					
+					
+										
+											<div class="row">
+								<div class="span12">
+		<div class="breadcrumb_holder">
+													  																								<div class="breadcrumb_item  has_dropdown ">
+						<div class="breadcrumb_border_top">&nbsp;</div>
+						<div class="breadcrumb_title">
+							<a href="/news"><span class="h4_breadcrumb_nav">News</span></a> 
+															<a href="/news"><span class="arrow_head">&nbsp;</span></a>
+													</div>
+													<div class="breadcrumb_text">
+								<ul>
+																			<li><a href="/news/world">World</a></li>
+																			<li><a href="/news/politics">Politics</a></li>
+																			<li><a href="/news/crime-and-law">Crime & Law</a></li>
+																			<li><a href="/news/social-affairs">Social Affairs</a></li>
+																			<li><a href="/news/health">Health</a></li>
+																			<li><a href="/news/education">Education</a></li>
+																			<li><a href="/news/environment">Environment</a></li>
+																			<li><a href="/news/science">Science</a></li>
+																			<li><a href="/news/technology">Technology</a></li>
+																			<li><a href="/news/consumer">Consumer</a></li>
+																			<li><a href="/news/galleries">Galleries</a></li>
+																			<li><a href="/news/video">Video</a></li>
+																			<li><a href="/news/weather">Weather</a></li>
+																	</ul>
+							</div>
+											</div>
+						  										<span class="h4_breadcrumb_nav divider">/</span>
+																							<div class="breadcrumb_item  has_dropdown ">
+						<div class="breadcrumb_border_top">&nbsp;</div>
+						<div class="breadcrumb_title">
+							<a href="/news/weather"><span class="h4_breadcrumb_nav">Weather</span></a> 
+															<a href="/news/weather"><span class="arrow_head">&nbsp;</span></a>
+													</div>
+													<div class="breadcrumb_text">
+								<ul>
+																			<li><a href="/news/weather/tides">Tides</a></li>
+																	</ul>
+							</div>
+											</div>
+						  										<span class="h4_breadcrumb_nav divider">/</span>
+																		<div class="breadcrumb_item ">
+						<div class="breadcrumb_border_top">&nbsp;</div>
+						<div class="breadcrumb_title">
+							<a href="/news/weather/tides"><span class="h4_breadcrumb_nav">Tides</span></a> 
+													</div>
+											</div>
+						  	  		</div>
+		  		<div id="subnav_indicator" class="breadcrumb_holder">
+		  <div class="breadcrumb_item  has_dropdown">
+		    <div class="breadcrumb_border_top">&nbsp;</div>
+		    <div class="breadcrumb_title" id="breadcrumb_mobile"> <a href="#subnav_menu"><span class="h4_breadcrumb_nav">News</span></a><span class="arrow_head">&nbsp;</span></div>
+		  </div> 
+		</div>
+	</div>
+						</div>
+										
+											                         
+                  
+    
+  
+    
+  
+  
+                             					                    
+					<div class="row">
+
+						 							<div class="span8">
+																									
+                  
+    
+  
+    
+  
+    
+    
+        
+	
+	<table class="tides-table" width="100%">
+	<tbody>
+	<tr>
+		<th valign="top">Location</th>
+		<th>First Low</th>
+		<th>First High</th>
+		<th>Second Low</th>
+		<th>Second High</th>
+	</tr>
+
+			<tr class="odd">
+			<td>Dublin (North Wall)</td>
+			<td>12:39</td>
+			<td>06:49</td>
+			<td></td>
+			<td>19:29</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.4</td>
+			<td>3.1</td>
+			<td></td>
+			<td>3.1</td>
+		</tr>
+				<tr class="even">
+			<td>Arklow</td>
+			<td>11:00</td>
+			<td>04:49</td>
+			<td>23:29</td>
+			<td>17:27</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>0.9</td>
+			<td>1.1</td>
+			<td>1</td>
+			<td>1.1</td>
+		</tr>
+				<tr class="odd">
+			<td>Bantry</td>
+			<td>05:40</td>
+			<td>11:41</td>
+			<td>18:09</td>
+			<td></td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.2</td>
+			<td>2.4</td>
+			<td>1.2</td>
+			<td></td>
+		</tr>
+				<tr class="even">
+			<td>Belfast</td>
+			<td>12:29</td>
+			<td>05:45</td>
+			<td></td>
+			<td>18:24</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.1</td>
+			<td>2.9</td>
+			<td></td>
+			<td>2.6</td>
+		</tr>
+				<tr class="odd">
+			<td>Castletownbere</td>
+			<td>05:54</td>
+			<td>11:53</td>
+			<td>18:22</td>
+			<td></td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.3</td>
+			<td>2.5</td>
+			<td>1.3</td>
+			<td></td>
+		</tr>
+				<tr class="even">
+			<td>Cobh</td>
+			<td>06:22</td>
+			<td>12:07</td>
+			<td>18:54</td>
+			<td></td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.4</td>
+			<td>3</td>
+			<td>1.4</td>
+			<td></td>
+		</tr>
+				<tr class="odd">
+			<td>Derry</td>
+			<td>10:45</td>
+			<td>03:48</td>
+			<td>22:04</td>
+			<td>16:42</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.2</td>
+			<td>2</td>
+			<td>1.2</td>
+			<td>2</td>
+		</tr>
+				<tr class="even">
+			<td>Dingle</td>
+			<td>05:30</td>
+			<td>11:25</td>
+			<td>17:59</td>
+			<td></td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.7</td>
+			<td>3</td>
+			<td>1.7</td>
+			<td></td>
+		</tr>
+				<tr class="odd">
+			<td>Dungarvan</td>
+			<td>06:28</td>
+			<td>12:18</td>
+			<td>18:59</td>
+			<td></td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.2</td>
+			<td>3.1</td>
+			<td>1.2</td>
+			<td></td>
+		</tr>
+				<tr class="even">
+			<td>Dun Laoghaire</td>
+			<td>12:38</td>
+			<td>06:49</td>
+			<td></td>
+			<td>19:29</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.4</td>
+			<td>3.1</td>
+			<td></td>
+			<td>3.1</td>
+		</tr>
+				<tr class="odd">
+			<td>Galway</td>
+			<td>06:33</td>
+			<td>12:47</td>
+			<td>19:00</td>
+			<td></td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>2.1</td>
+			<td>3.5</td>
+			<td>2.2</td>
+			<td></td>
+		</tr>
+				<tr class="even">
+			<td>Greystones</td>
+			<td></td>
+			<td>06:42</td>
+			<td></td>
+			<td>19:22</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td></td>
+			<td>2.8</td>
+			<td></td>
+			<td>2.7</td>
+		</tr>
+				<tr class="odd">
+			<td>Howth</td>
+			<td>12:40</td>
+			<td>06:45</td>
+			<td></td>
+			<td>19:25</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.2</td>
+			<td>3</td>
+			<td></td>
+			<td>2.9</td>
+		</tr>
+				<tr class="even">
+			<td>Kilkeel</td>
+			<td>00:02</td>
+			<td>06:16</td>
+			<td>12:39</td>
+			<td>18:54</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.6</td>
+			<td>3.9</td>
+			<td>1.5</td>
+			<td>3.7</td>
+		</tr>
+				<tr class="odd">
+			<td>Killybegs</td>
+			<td>07:08</td>
+			<td>00:32</td>
+			<td>19:35</td>
+			<td>13:35</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.6</td>
+			<td>2.6</td>
+			<td>1.6</td>
+			<td>2.6</td>
+		</tr>
+				<tr class="even">
+			<td>Kinsale</td>
+			<td>06:12</td>
+			<td>12:02</td>
+			<td>18:43</td>
+			<td></td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.5</td>
+			<td>3</td>
+			<td>1.5</td>
+			<td></td>
+		</tr>
+				<tr class="odd">
+			<td>Larne</td>
+			<td>12:00</td>
+			<td>05:30</td>
+			<td></td>
+			<td>18:31</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1</td>
+			<td>2.4</td>
+			<td></td>
+			<td>2.2</td>
+		</tr>
+				<tr class="even">
+			<td>Limerick Docks</td>
+			<td>08:50</td>
+			<td>01:25</td>
+			<td>21:13</td>
+			<td>14:21</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.4</td>
+			<td>4.5</td>
+			<td>1.5</td>
+			<td>4.5</td>
+		</tr>
+				<tr class="odd">
+			<td>Moville</td>
+			<td>08:57</td>
+			<td>02:46</td>
+			<td>20:10</td>
+			<td>15:13</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>0.9</td>
+			<td>1.8</td>
+			<td>1</td>
+			<td>1.8</td>
+		</tr>
+				<tr class="even">
+			<td>Portrush</td>
+			<td>09:40</td>
+			<td>03:27</td>
+			<td>21:04</td>
+			<td>15:15</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>0.9</td>
+			<td>1.6</td>
+			<td>1</td>
+			<td>1.5</td>
+		</tr>
+				<tr class="odd">
+			<td>Rathmullen</td>
+			<td>07:52</td>
+			<td>00:52</td>
+			<td>20:19</td>
+			<td>14:07</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>2</td>
+			<td>2.8</td>
+			<td>2.1</td>
+			<td>2.8</td>
+		</tr>
+				<tr class="even">
+			<td>Schull</td>
+			<td>06:01</td>
+			<td>11:51</td>
+			<td>18:27</td>
+			<td></td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.2</td>
+			<td>2.5</td>
+			<td>1.2</td>
+			<td></td>
+		</tr>
+				<tr class="odd">
+			<td>Sligo</td>
+			<td>07:27</td>
+			<td>00:37</td>
+			<td>19:54</td>
+			<td>13:40</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>3</td>
+			<td>4.1</td>
+			<td>3.1</td>
+			<td>4.1</td>
+		</tr>
+				<tr class="even">
+			<td>Warrenpoint</td>
+			<td>00:14</td>
+			<td>06:40</td>
+			<td>13:04</td>
+			<td>19:20</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.9</td>
+			<td>3.7</td>
+			<td>1.6</td>
+			<td>3.6</td>
+		</tr>
+				<tr class="odd">
+			<td>Waterford Bridge</td>
+			<td>07:08</td>
+			<td>00:20</td>
+			<td>19:40</td>
+			<td>13:04</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.3</td>
+			<td>3.4</td>
+			<td>1.3</td>
+			<td>3.3</td>
+		</tr>
+				<tr class="even">
+			<td>Westport</td>
+			<td>06:59</td>
+			<td>13:02</td>
+			<td>19:26</td>
+			<td></td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.8</td>
+			<td>3</td>
+			<td>1.9</td>
+			<td></td>
+		</tr>
+				<tr class="odd">
+			<td>Wexford</td>
+			<td>07:39</td>
+			<td>00:49</td>
+			<td>20:10</td>
+			<td>13:33</td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.1</td>
+			<td>1.5</td>
+			<td>1.1</td>
+			<td>1.4</td>
+		</tr>
+				<tr class="even">
+			<td>Wicklow</td>
+			<td>12:16</td>
+			<td>06:31</td>
+			<td></td>
+			<td>19:11</td>
+		</tr>
+		<tr class="even bottom">
+			<td>&nbsp;</td>
+			<td>1.1</td>
+			<td>2.2</td>
+			<td></td>
+			<td>2.1</td>
+		</tr>
+				<tr class="odd">
+			<td>Youghal</td>
+			<td>06:31</td>
+			<td>12:16</td>
+			<td>19:02</td>
+			<td></td>
+		</tr>
+		<tr class="odd bottom">
+			<td>&nbsp;</td>
+			<td>1.3</td>
+			<td>2.9</td>
+			<td>1.3</td>
+			<td></td>
+		</tr>
+			</tbody>
+</table>
+	
+
+
+      
+  
+      															</div>
+												
+													<div class="span4" id="content_right">
+								
+                  
+    
+  
+    
+  
+    
+    
+        	
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+<div class="span4">
+
+		<div class="advertisement">
+		<span class="heading">ADVERTISEMENT</span>
+		
+
+
+	<script language="javascript"><!--	
+	if (window.adgroupid == undefined) {		
+		window.adgroupid = Math.round(Math.random() * 1000);
+	}	
+  var android = "";
+  if(navigator.appVersion.toLowerCase().indexOf('android') >= 0){
+    android=";kvmos=ANDROID";
+  }
+        //console.log( android );
+        		document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|826.1|4269100|0|170|ADTECH;cookie=info;loc=100;target=_blank;kvtopic=Tides;grp='+window.adgroupid+android+';misc='+new Date().getTime()+'"></scri'+'pt>');
+	//-->
+	</script>
+	<noscript>
+	    	
+	    			<a href="http://adserver.adtech.de/adlink|3.0|826.1|4269100|0|170|ADTECH;loc=300;target=_blank;kvtopic=Tides;cookie=info;" target="_blank">
+			<img src="http://adserver.adtech.de/adserv|3.0|826.1|4269100|0|170|ADTECH;loc=300;target=_blank;kvtopic=Tides;cookie=info;" border="0">
+		</a>
+	</noscript>
+
+	
+			</div>
+	
+
+
+</div>
+</div>
+
+      
+    
+    
+        
+<div class="row section">
+  <div class="span4">
+    		<h2 class="section-title">CONNECT</h2>
+      </div>
+  <div class="span4 ">
+	<a href="https://twitter.com/IrishTimes" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @IrishTimes</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><br/>
+<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300" data-href="http://www.irishtimes.com"></div>
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script><br/>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Firishtimes&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=422102134490557" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>
+  </div>
+</div>
+
+      
+  
+      							</div>
+												
+														<div id="subnav_menu" class="span12 clearfix">
+									<h3 class="section-title"><a href="/news"><span>News</span></a></h3>
+									 <ul>
+									 </ul>
+								</div>
+												
+					</div>
+				</div>
+					
+			</div>
+			<div class="right-remainder"><div class="inner"></div></div>			
+		</div>
+		
+			
+		<div id="mobile_backtotop"><a href="#wrapper" class="span12" data-link-name="back to top">Back to top <i class="arrow-small-up"></i></a></div>
+		<footer role="landmark">
+		
+						  
+                  
+    
+  
+    
+  
+    
+    
+        <div class="left-remainder"><div class="inner"></div></div>
+<div class="container">
+	<div class="column">
+		<h5>Browse</h5>
+					<nav>
+				<ul>
+					
+                  
+    
+  
+    
+  
+    
+    
+        
+	<li>
+		<a  href="/news" >News</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/sport" >Sport</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/business" >Business</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/debate" >Debate</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/life-and-style" >Life &amp; Style</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/culture" >Culture</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/offers" >Offers</a>	</li>
+
+      
+  
+      				</ul>				
+			</nav>
+					
+	</div>
+	<div class="column">					
+		<h5>About us</h5>
+					<nav>
+				<ul>
+					
+                  
+    
+  
+    
+  
+    
+    
+        
+	<li>
+		<a  href="/about-us/advertise" >Advertise</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/about-us/contact-us" >Contact Us</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/about-us/the-irish-times-trust" >The Irish Times Trust</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/about-us/career-opportunities" >Career Opportunities</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/about-us/help" >Help</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/about-us/sitemap" >Site Map</a>	</li>
+
+      
+  
+      				</ul>
+			</nav>
+			</div>
+	<div class="column-2-break clear"></div>
+	<div class="column">					
+		<h5>Connect</h5>
+					<nav>
+				<ul>
+					
+                  
+    
+  
+    
+  
+    
+    
+        
+	<li>
+		<a  href="http://www.facebook.com/IrishTimes" >Facebook</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.twitter.com/IrishTimes" >Twitter</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="  http://plus.google.com/u/0/112058612813147220659/posts " >Google +</a>	</li>
+
+      
+  
+      				</ul>
+			</nav>			
+			</div>
+	<div class="column-3-break clear"></div>
+	<div class="column">					
+		<h5>Subscriptions</h5>
+					<nav>
+				<ul>
+					
+                  
+    
+  
+    
+  
+    
+    
+        
+	<li>
+		<a  href="https://www.newsdelivery.ie" >Home Delivery</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  title="ePaper - The Irish Times"  href="http://www.irishtimes.com/epaper" >epaper</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.irishtimes.com/games/crosswords/" >Crosswords</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.irishtimes.com/search/archive.html" >Archive</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://dating.irishtimes.com" >Dating</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.irishtimes.com/subscriptions/ancestors" >Ancestors</a>	</li>
+
+      
+  
+      				</ul>
+			</nav>
+			</div>
+	<div class="column-2-break clear"></div>
+	<div class="column">					
+		<h5>Policy &amp; Terms</h5>
+					<nav>
+				<ul>
+					
+                  
+    
+  
+    
+  
+    
+    
+        
+	<li>
+		<a  href="/policy-and-terms/terms-conditions" >Terms &amp; Conditions</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/policy-and-terms/privacy-policy" >Privacy Policy</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="/policy-and-terms/cookie-policy" >Cookie Policy</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.irishtimes.com/policy-and-terms/community-standards" >Community Standards</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.irishtimes.com/policy-and-terms/copyright" >Copyright</a>	</li>
+
+      
+  
+      				</ul>
+			</nav>
+			</div>
+	<div class="column">					
+		<h5>Partners</h5>
+					<nav>
+				<ul>
+					
+                  
+    
+  
+    
+  
+    
+    
+        
+	<li>
+		<a  href="http://www.rewardingtimes.ie" >rewardingtimes.ie</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.myhome.ie" >myhome.ie</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.irishracing.com" >irishracing.com</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.entertainment.ie" >entertainment.ie</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.myantiques.ie" >myantiques.ie</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="https://www.newsdelivery.ie/" >newsdelivery.ie</a>	</li>
+
+      
+    
+    
+        
+	<li>
+		<a  href="http://www.thegloss.ie" >The Gloss</a>	</li>
+
+      
+  
+      				</ul>
+			</nav>
+			</div>
+	<div class="column-2-break clear"></div>
+	<div class="column-3-break clear"></div>
+</div>
+<div class="right-remainder"><div class="inner"></div></div>
+<div id="copyright" role="contentinfo">
+	<div class="left-remainder"><div class="inner"></div></div>
+	<div class="container">&copy; 2013 THE IRISH TIMES</div>
+	<div class="right-remainder"><div class="inner"></div></div>
+</div>
+      
+  
+      					
+		</footer>
+		
+	</div>
+	<div class="clear"></div>
+	<noscript>
+		<div id="no-script">For the best site experience please enable JavaScript in your browser settings</div>
+	</noscript>
+	
+    <script src="/assets/js/libs/jquery.ui.datepicker.js"></script>
+
+    <script>
+            jq(document).ready(function() {
+                jq(function() {
+                    if (jq( "#from" ).length > 0 && jq( "#to" ).length > 0) {
+                      jq( "#from" ).datepicker({
+                          defaultDate: "+1w",
+                          showOn: "button",
+                          buttonImage: "/assets/images/generic/website/calendar.jpg",
+                          buttonImageOnly: true,
+                          changeMonth: true,
+                          numberOfMonths: 1,
+                          onSelect: function( selectedDate ) {
+                              jq( "#to" ).datepicker( "option", "minDate", selectedDate );
+                          }
+                      });
+                      jq( "#to" ).datepicker({
+                          showOn: "button",
+                          buttonImage: "/assets/images/generic/website/calendar.jpg",
+                          buttonImageOnly: true,
+                          defaultDate: "+1w",
+                          changeMonth: true,
+                          numberOfMonths: 1,
+                          onSelect: function( selectedDate ) {
+                              jq( "#from" ).datepicker( "option", "maxDate", selectedDate );
+                          }
+                      });
+                   }
+                });
+            });
+            
+            // Initialize scripts referenced in the plugins.js that need to be actioned from
+            // here to allow access to the document.body tag attributes
+            initReadMoreButton ();
+            initContinueReading();
+             
+    </script>
+	
+
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({c1: "2", c2: "8946263", c3: "", c4: "http://www.irishtimes.com/news/weather/tides", c5: "News_Weather_Tides" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=8946263&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->	
+		   
+
+
+							
+
+<script type="text/javascript"><!--
+        var _gaq = _gaq || [];
+        _gaq.push(
+            ['_setAccount', 'UA-850873-2'],
+            ['_setDomainName', '.irishtimes.com'],
+            ['_setCustomVar', 1, 'Page_Type',  'index', 3],
+                            ['_setCustomVar', 2, 'Section', 'news', 3],
+                                ['_setCustomVar', 3, 'Subsection', 'news_weather', 3],
+                                    			['_setCustomVar', 4, 'Level3', 'news_weather_tides', 3],
+						['_setLocalGifPath', '//stats.irishtimes.com/__utm.gif'],
+		['_setLocalRemoteServerMode'],
+		['_trackPageview', '/news/weather/tides'],
+		['_setAllowLinker', true]
+        );
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        --></script>
+	<script src="/assets/js/cookies_policy.js"></script>
+</body>
+</html>
