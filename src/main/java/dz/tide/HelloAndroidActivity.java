@@ -320,11 +320,12 @@ public class HelloAndroidActivity extends Activity {
 			in = new BufferedReader( //
 					new InputStreamReader(oracle.openStream())//
 			);
+			
+			char[] buf = new char[100000];
+			int n = 0;
 
-			String inputLine;
-
-			while ((inputLine = in.readLine()) != null) {
-				result += inputLine;
+			while (0 < (n = in.read(buf))) {
+				result += new String (buf, 0 , n);
 			}
 		} catch (Exception e) {
 			Log.e(TAG, e.getMessage());
@@ -341,5 +342,4 @@ public class HelloAndroidActivity extends Activity {
 		return result;
 
 	}
-
 }
